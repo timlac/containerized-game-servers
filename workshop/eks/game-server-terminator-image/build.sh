@@ -1,7 +1,7 @@
 #!/bin/bash
 
 source ../account.conf
-region="us-west-2"
+region="eu-central-1"
 image_name="gs-term"
 repo='.dkr.ecr.'$region'.amazonaws.com/'$image_name':latest'
 repo_url=$account$repo

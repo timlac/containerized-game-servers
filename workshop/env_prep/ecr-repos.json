@@ -24,7 +24,12 @@
         "Properties" : {
             "RepositoryName" : "multiplayersample-build"
         }
+    },
+    "gstermECR" : {
+        "Type" : "AWS::ECR::Repository",
+        "Properties" : {
+            "RepositoryName" : "gs-term"
+            }
+        }
     }
-  }
 }
-
